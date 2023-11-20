@@ -19,7 +19,6 @@ class CardViewModel : ViewModel() {
             }while(newCards.contains(num))
             newCards[i]=num
         }
-
         newCards.sort()
         _cards.value = newCards
     }
